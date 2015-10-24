@@ -1,0 +1,175 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Arial, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Navigation Section */
+header {
+    background-color: #2d2d2d;
+    background-image: none;
+    background-image: none;
+    background-position: 0 -138px;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #000;
+    font-size: 24px;
+    height: 29px;
+    height: 30px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 990;
+}
+.left-nav ol {
+	float: left;
+	margin: 0 auto;
+	font-size: 13px;
+    color: #c8cccc;
+
+}
+.left-nav .tabs li {
+	padding: 5px;
+	display: inline-block;
+}
+.right-nav ol {
+	float: right;
+	font-size: 13px;	
+	color: #c8cccc;
+}
+.right-nav .profile li {
+	padding: 0 5px 5px 5px;
+	display: inline-block;
+	border-right: 1px solid #575757;
+}
+
+.right-nav .profile .share {
+	border-radius: 10px;
+	color: #c8cccc;
+	margin-bottom: 5px;
+}
+body a {
+	color: #c8cccc;
+	text-decoration: none;
+}
+
+.left-nav .tabs .active {
+	border-top: 2px solid red;
+	color: #ffffff;
+}
+
+/* Logo and Search Bar */
+.google  {
+	margin: 0;
+	padding: 0;
+	height: 35em;
+}
+.google .logo {
+	position: relative;
+	top: 35%;
+	left: 40.5%;
+}
+.google .logo img {
+	padding-bottom: 58px;
+	margin-right: 10px;
+}
+.google [type="text"] {
+	border: 1px solid #c8cccc;
+	background-image: url("img/googlemic.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 3.25em;
+	margin-left: -39.5em;
+	padding-left: 5px;
+}
+.google [type="submit"] {
+	margin-top: 40px;
+	text-align: center;
+	border-style: none;
+	height: 3em;
+	background-color: #F4F4F4;
+}
+/* Footer */
+.footy {
+	background-color: #f2f2f2;
+	height: 35px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	font-size: 13px;
+}
+.footy ol {
+	margin: 0 auto;
+	padding: 8px 0 0 25px;
+	color: #66666A;
+}
+.footy ol li {
+	display: inline;
+	padding: 5px;
+	margin: 10px 0 0 10px;
+}
+.footy .left-foot {
+	float: left;
+}
+.footy .right-foot {
+	float: right;
+}
+.footy p {
+	text-align: center;
+	color: #c8cccc;
+}
